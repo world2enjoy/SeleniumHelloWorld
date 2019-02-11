@@ -11,14 +11,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Main {
+public class MainTest {
 
-	static Logger log = Logger.getLogger(Main.class.getName());
-	private static final String GOOGLE_URL = "https://www.google.com.mx";
+	static Logger log = Logger.getLogger(MainTest.class.getName());
+	private static final String GOOGLE_URL = "https://www.google.com";
 	private String os = null;
 
 	public static void main(String[] args) {
-		Main main = new Main();
+		MainTest main = new MainTest();
 		main.setFirefoxDriverProperty();
 
 		try {
